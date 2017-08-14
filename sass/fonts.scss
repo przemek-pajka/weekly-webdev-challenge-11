@@ -1,0 +1,15 @@
+@import "variables";
+@import "bourbon";
+
+
+@include font-face("Chunkfive", "../fonts/chunkfive/Chunkfive", $file-formats: "opentype");
+@include font-face("Lato-Black", "../fonts/lato/Lato-Black", $file-formats: ttf);
+@include font-face("Lato-Bold", "../fonts/lato/Lato-Bold", $file-formats: ttf);
+@include font-face("Lato-Heavy", "../fonts/lato/Lato-Heavy", $file-formats: ttf);
+@include font-face("Lato-Light", "../fonts/lato/Lato-Light", $file-formats: ttf);
+@include font-face("Lato-Medium", "../fonts/lato/Lato-Medium", $file-formats: ttf);
+@include font-face("Lato-Regular", "../fonts/lato/Lato-Regular", $file-formats: ttf);
+@include font-face("Lato-Semibold", "../fonts/lato/Lato-Semibold", $file-formats: ttf);
+
+
+

@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Weekly WebDev Challenge 11</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/external/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/external/fontello/fontello.css">
+    <link rel="stylesheet" href="css/external/hamburgers/hamburgers.css">
+    <link rel="stylesheet" href="css/external/jPushMenu/jPushMenu.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="page">
+        <header id="header">
+            <div class="top-wrapper">
+                <div class="container flex">
+                    <div class="logo-text">Yok<span>Ngalam</span></div>
+                    <nav class="top-wrapper__main-nav">
+                        <ul class="top-wrapper__main-nav__list flex">
+                            <li><a href="#header" title="Home">Home</a></li>
+                            <li><a href="#destination__section" title="Destination">Destination</a></li>
+                            <li><a href="#ittinery__section" title="Ittinary">Ittinary</a></li>
+                            <li><a href="#contact__section" title="Contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- .top-wrapper__main-nav -->
+                    <div class="toggle-menu menu-top hamburger hamburger--squeeze jPushMenuBtn flex">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                    <!-- .toggle-menu -->
+                      <nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top">
+                        <ul>
+                            <li><a href="#" title="Home">Home</a></li>
+                            <li><a href="#" title="Destination">Destination</a></li>
+                            <li><a href="#" title="Ittinary">Ittinary</a></li>
+                            <li><a href="#" title="Review">Review</a></li>
+                            <li><a href="#" title="Contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <!-- .cbp-spmenu -->
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .top-wrapper -->
+            <div class="headbox">
+                <h1 class="headbox__title">LETS GET <span class="text-teal">LOST</span></h1>
+                <p><span class="disp-block">Malang will never dissapointed you.</span>
+From every step you took you will be amazed and suddenly fallin love with Malang</p>
+                <button class="action-btn">SET ITTINARY NOW</button>
+            </div>
+            <!-- .headbox -->
+        </header>
+        <main>
+            <section class="about__section" id="about__section">
+                <div class="container flex sm-flex-column">
+                    <div class="block-image col-xs-12 col-sm-12"><img src="images/about__bg.png"/></div>
+                    <div class="headbox col-xs-12 col-sm-12">
+                        <h3 class="headbox__title">City of <span class="text-teal">Love</span></h3>
+                        <p>Malang is the second largest city in East Java province, Indonesia. It has a history dating back to the ancient Mataram Kingdom. The city is famous for its cool temperature. People in East Java sometimes call it "Paris of East Java.</p>
+                    </div>
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- .about__section -->
+            <section class="destination__section" id="destination__section">
+                <div class="container">
+                    <div class="headbox flex sm-flex-column">
+                        <h3 class="headbox__title">Des<span class="text-teal">tination</span></h3>
+                        <div class="info-box">
+                            <i class="icon-info"></i>
+                            <span>see basic regulation</span>
+                        </div>
+                        <!-- .info-box -->
+                        <p>Being around by many mountain, Malang not only came with mountain vacation, but our beach,
+cultural spot, and Human Interest is worth to experienced.</p>
+                        <input type="text" placeholder="search destination" class="search-input"/>
+                        <div class="pick-option flex">
+                            <div class="pick-option__item active">ALL PLACE</div>/
+                            <div class="pick-option__item">RECOMENDED PLACE</div>
+                        </div>
+                        <!-- .pick-option -->
+                    </div>
+                    <!-- .headbox -->
+                    <div class="places__wrapper flex">
+                        <div class="places__wrapper__row places__wrapper__row--big flex">
+                            <img src="images/batu__bg.png"/>
+                            <div class="places-temporary sm-flex-column">
+                                <div class="places__wrapper__row__image">
+                                    <a class="see-more">see more<i class="icon-right-small"></i></a>
+                                </div>
+                                <div class="places__wrapper__row__description">
+                                    <img src="images/ferris-wheel.png" alt=""/>
+                                    <h4 class="text-turqoise">Batu</h4>
+                                    <p> is a city located in East Java Province of Indonesia. It<br>is situated about 20 km to the northwest of Malang.<br>Formerly, it was a part of Malang Regency; but in<br>2001, Batu became an independent city.<br>
+    A population of 190,000 people, it lies on the<br>southern slopes of Gunung Welirang. Its population<br>largely consists of Javanese.
+    </p>
+                                </div>
+                                <!-- .places__wrapper__row__description -->
+                            </div>
+                        </div>
+                        <!-- .places__wrapper__row -->
+                         <div class="places__wrapper__row places__wrapper__row--small flex">
+                            <img src="images/bromo__bg.png"/>
+                            <div class="places__wrapper__row__image">
+                                <a class="see-more">see more<i class="icon-right-small"></i></a>
+                            </div>
+                            <div class="places__wrapper__row__description">
+                                <img src="images/bromo-small.png" alt=""/>
+                                <h4 class="text-turqoise">Bromo</h4>
+                                <p>Mount Bromo is an active volcano and part of the Tengger massif, in East Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak of the massif, but is the most well known</p>
+                            </div>
+                            <!-- .places__wrapper__row__description -->
+                        </div>
+                        <!-- .places__wrapper__row -->
+                        <div class="places__wrapper__image">
+                                <img src="images/sendang__bg.png"/>
+                                <div class="places__wrapper__image-sendang">
+                                    <img src="images/sendang-small.png"/>
+                                </div>
+                                <a class="see-more">see more<i class="icon-right-small"></i></a>
+                        </div>
+                        <!-- .places__wrapper__image -->
+                    </div>
+                    <!-- .places__wrapper -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- .destination__section -->
+            <section class="ittinery__section" id="ittinery__section">
+                <div class="container">
+                    <div class="headbox">
+                        <h3 class="headbox__title">Set <span class="text-teal">Ittinery</span></h3>
+                        <p>Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your vacation.
+have a great trip !</p>
+                    </div>
+                    <!-- .headbox -->
+                    <div class="ittinery__wrapper flex sm-flex-column">
+                        <div class="ittinery__wrapper__left col-md-7 col-xs-12">
+                            <div class="ittinery__wrapper__box">
+                                <div class="ittinery-box__top">
+                                    <input type="text" placeholder="Your Ittinery Title Here"/>
+                                </div>
+                                <!-- .ittinery-box__top -->
+                                <div class="ittinery-box__content-block">
+                                    <div class="ittinery-box__date-row flex">
+                                        <div class="ittinery-box__date-row__day">Day 1</div>
+                                        <div class="ittinery-box__date-row__pick-date">05/29/2015</div>
+                                    </div>
+                                    <!-- .ittinery-box__date-row -->
+                                    <div class="ittinery-box__destination">
+                                        <div class="ittinery-box__destination__place">
+                                            <img src="images/bromo-icon.png"/>
+                                            <div class="place-box flex">
+                                                <span class="place-box__text">Mt.Bromo</span>
+                                                <span class="place-box__hours">03.30 - 09.00</span>
+                                            </div>
+                                            <!-- .place-box -->
+                                        </div>
+                                        <!-- .ittinery-box__destination__place -->
+                                        <div class="add-destination">add sub destination<i class="icon-plus"></i></div>
+                                    </div>
+                                    <!-- .ittinery-box__destination -->
+
+                                    <div class="ittinery-box__destination">
+                                        <div class="ittinery-box__destination__place">
+                                            <img src="images/batu-icon.png"/>
+                                            <div class="place-box flex">
+                                                <span class="place-box__text">Batu City</span>
+                                                <span class="place-box__hours">10.00 - 15.00</span>
+                                            </div>
+                                            <!-- .place-box -->
+                                        </div>
+                                        <!-- .ittinery-box__destination__place -->
+                                        <div class="sub-destination-list">
+                                            <div class="sub-destination-list__item">Enjoy Malang while Listening Music</div>
+                                            <div class="sub-destination-list__item">Gonna Eat BAKSO</div>
+                                        </div>
+                                        <div class="add-destination">add sub destination<i class="icon-plus"></i></div>
+                                    </div>
+                                    <!-- .ittinery-box__destination -->
+                                    <div class="ittinery-box__date-row flex">
+                                        <div class="ittinery-box__date-row__day">Day 2</div>
+                                        <div class="ittinery-box__date-row__pick-date">05/29/2015</div>
+                                    </div>
+                                    <!-- .ittinery-box__date-row -->
+                                    <form class="drop-container">
+                                        <h3 class="dc-msg">Drag Destination Here</h3>
+                                        <input type="file"/>
+                                    </form>
+                                </div>
+                                <!-- .ittinery-box__content-block -->
+                            </div>
+                            <!-- .ittinery__wrapper__box -->
+                            <div class="ittinery__wrapper__buttons flex">
+                                <button class="save-pdf__btn"><i class="icon-floppy"></i><span class="btn__text">SAVE AS PDF</span></button>
+                                <button class="print__btn"><i class="icon-print"></i><span class="btn__text">PRINT</span></button>
+                            </div>
+                            <!-- .ittinery__wrapper__buttons -->
+                        </div>
+                        <!-- .ittinery__wrapper__left -->
+
+                        <div class="destination-list col-md-5 col-xs-12">
+                            <h3>List of Destination</h3>
+                            <div class="sort-row">
+                                <div class="sort__item">sort by : <span>Mountain</span></div>
+                                <div class="sort__search"><img src="images/loupe.png"/></div>
+                            </div>
+                            <!-- .sort-row -->
+                            <div class="destination-list__row">
+                                <div class="destination-list__row__left">
+                                    <div class="place-name">Mt. Bromo</div>
+                                    <div class="place-estimated">estimated time: <span class="time"><span class="time__number">5</span> Hours</span></div>
+                                </div>
+                                <!-- .destination-list__row__left -->
+                                <div class="destination-list__row__right">
+                                    <img src="images/bromo-icon.png"/>
+                                    <a class="view-details">view details</a>
+                                </div>
+                                <!-- .destination-list__row__right -->
+                            </div>
+                            <!-- .destination-list__row -->
+                            <div class="destination-list__row">
+                                <div class="destination-list__row__left">
+                                    <div class="place-name">Mt. Panderman</div>
+                                    <div class="place-estimated">estimated time: <span class="time"><span class="time__number">5</span> Hours</span></div>
+                                </div>
+                                <!-- .destination-list__row__left -->
+                                <div class="destination-list__row__right">
+                                    <img src="images/bromo-icon.png"/>
+                                    <a class="view-details">view details</a>
+                                </div>
+                                <!-- .destination-list__row__right -->
+                            </div>
+                            <!-- .destination-list__row -->
+                            <div class="destination-list__row">
+                                <div class="destination-list__row__left">
+                                    <div class="place-name">Mt. Semeru</div>
+                                    <div class="place-estimated">estimated time: <span class="time"><span class="time__number">5</span> Hours</span></div>
+                                </div>
+                                <!-- .destination-list__row__left -->
+                                <div class="destination-list__row__right">
+                                    <img src="images/bromo-icon.png"/>
+                                    <a class="view-details">view details</a>
+                                </div>
+                                <!-- .destination-list__row__right -->
+                            </div>
+                            <!-- .destination-list__row -->
+                            <div class="destination-list__row">
+                                <div class="destination-list__row__left">
+                                    <div class="place-name">Mt. Bromo</div>
+                                    <div class="place-estimated">estimated time: <span class="time"><span class="time__number">5</span> Hours</span></div>
+                                </div>
+                                <!-- .destination-list__row__left -->
+                                <div class="destination-list__row__right">
+                                    <img src="images/bromo-icon.png"/>
+                                    <a class="view-details">view details</a>
+                                </div>
+                                <!-- .destination-list__row__right -->
+                            </div>
+                            <!-- .destination-list__row -->
+                            <div class="destination-list__row">
+                                <div class="destination-list__row__left">
+                                    <div class="place-name">Mt. Bromo</div>
+                                    <div class="place-estimated">estimated time: <span class="time"><span class="time__number">5</span> Hours</span></div>
+                                </div>
+                                <!-- .destination-list__row__left -->
+                                <div class="destination-list__row__right">
+                                    <img src="images/bromo-icon.png"/>
+                                    <a class="view-details">view details</a>
+                                </div>
+                                <!-- .destination-list__row__right -->
+                            </div>
+                            <!-- .destination-list__row -->
+                        </div>
+                        <!-- .destination-list -->
+                    </div>
+                    <!-- .ittinery__wrapper -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- .ittinery__section -->
+            <section class="contact__section" id="contact__section">
+                <div class="container">
+                    <div class="headbox">
+                        <h3 class="headbox__title">Contact</h3>
+                    </div>
+                    <!-- .headbox -->
+                    <div class="contact__wrapper flex sm-flex-column">
+                        <form>
+                            <input type="text" placeholder="Your Email"/>
+                            <div class="form__group">
+                                <input type="text" placeholder="Company"/>
+                                <input type="text" placeholder="Subject"/>
+                            </div>
+                            <!-- .form__group -->
+                            <textarea placeholder="Your Messages"></textarea>
+                            <button class="send-msg">SEND MESSAGE</button>
+                        </form>
+                        <div class="block-separator">OR</div>
+                        <div class="contact__wrapper__details">
+                            <h3 class="contact-details__title">You Can Find Us Here</h3>
+                            <div class="contact-details__row">
+                                <i class="icon-home-outline"></i>
+                                <p>l.Danau Bratan sekian nomer sekian, Sawojajar Malang<span class="disp-block">FIND ON MAPS</span></p>
+                            </div>
+                            <!-- .contact-details__row -->
+                            <div class="contact-details__row">
+                                <i class="icon-user-o"></i>
+                                <p>(+62) 8816723812</p>
+                            </div>
+                            <!-- .contact-details__row -->
+                            <div class="contact-details__row">
+                                <i class="icon-user-o"></i>
+                                <p>(+62) 8816723812</p>
+                            </div>
+                            <!-- .contact-details__row -->
+                        </div>
+                        <!-- .contact__wrapper__details -->
+                    </div>
+                    <!-- .contact__wrapper -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- .contact__section -->
+            <section class="subscribe__section sm-flex-column">
+                <div class="subscribe__wrapper subscribe__wrapper__left col-md-7 col-xs-12">
+                    <div class="container">
+                        <h3 class="subscribe__wrapper__title">Keep in Touch</h3>
+                        <p>We Will Give you latest information about Malang</p>
+                    </div>
+                </div>
+                <div class="subscribe__wrapper subscribe__wrapper__right col-md-5 col-xs-12">
+                    <div class="container">
+                        <div class="subscribe__wrapper__input-row">
+                            <input type="text" placeholder="Type Email Here for Subscribe" class="email__input"/>
+                        </div>
+                        <!-- .subscribe__wrapper__input-row -->
+                    </div>
+                    <!-- .container -->
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <ul class="footer__wrapper__navi-list flex">
+                        <li><a href="#">Term & Condition</a></li>
+                        <li><a href="#">Policy</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                    <!-- .footer__wrapper__navi-list -->
+                    <ul class="footer__wrapper__social-list flex">
+                        <li><i class="icon-facebook"></i></li>
+                        <li><i class="icon-twitter"></i></li>
+                        <li><i class="icon-instagram"></i></li>
+                    </ul>
+                </div>
+                <!-- .footer__wrapper -->
+                <div class="footer__copyright">copyright@YokMalang. Allright Reserved. 2015</div>
+            </div>
+            <!-- .container -->
+        </footer>
+    </div>
+    <!-- #page-->
+
+    <script type="text/javascript" src="js/external/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/external/scrollreveal/scrollreveal.min.js"></script>
+    <script type="text/javascript" src="js/external/jPushMenu/jPushMenu.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
