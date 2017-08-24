@@ -179,16 +179,6 @@ header {
                         transition: border-color 0.5s;
                             a {
                                 font-family: $lato-heavy;
-     
-                                &:after {
-                                    display:block;
-                                    content:attr(title);
-                                    font-family: $lato-heavy;
-                                    height:1px;
-                                    color:transparent;
-                                    overflow:hidden;
-                                    visibility:hidden;
-                                }
                             }
                     }
                 }
