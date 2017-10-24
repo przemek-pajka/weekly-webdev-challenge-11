@@ -765,7 +765,7 @@ header {
 
 // .contact__section
 .contact__section {
-    background: url('../images/map__bg.png') no-repeat;
+    background: url('../images/map__bg.png') no-repeat fixed;
     background-size: cover;
     padding: 81px 0px 76px;
     .headbox {
@@ -929,7 +929,7 @@ header {
 
 // footer
 footer {
-    background: #2f2933 url('../images/mountain.png') no-repeat bottom;
+    background: #2f2933 url('../images/mountain.png') no-repeat bottom fixed;
     padding: 22px 0px 13px;
 
     .footer__wrapper {
